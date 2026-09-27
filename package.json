@@ -1,0 +1,17 @@
+{
+  "name": "hono-user-api",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "drizzle-orm": "^1.0.0-rc.4",
+    "hono": "^4.13.9",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.23.1",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "tsx": "^4.23.15"
+  }
+}
